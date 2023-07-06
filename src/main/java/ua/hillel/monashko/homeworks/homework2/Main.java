@@ -12,28 +12,27 @@ public class Main {
     public static void main(String[] args) {
 
        double Lat =  51.500626;
+
        double Long = 0.124623;
+
        String LatDMS = "51°30.043N";
+
        String LongDMS = "0°7.4775W";
+
+       char specSymbol = '\u00B0';
+
+       //char specSymbol2 = '°';
 
 
         System.out.println("Big Ben Coordinates");
 
         System.out.println("Decimal");
 
-        System.out.println("Longitude: " + Long + " Latitude: " + Lat);
+        System.out.println("Longitude: " +  Long + specSymbol+ " Latitude: " + Lat + specSymbol);
 
         System.out.println("DMS");
 
         System.out.println(LongDMS + "-Longitude DMS"+ " " + LatDMS + "-Latitude DMS");
-
-
-
-
-
-
-
-
 
     }
 }
