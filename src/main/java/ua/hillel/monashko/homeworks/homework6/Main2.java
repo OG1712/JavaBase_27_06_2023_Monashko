@@ -18,6 +18,7 @@ public class Main2 {
             a1 = scanner.nextInt();
         }else {
             System.out.println("Please input integer");
+            System.exit(0);
         }
 
         double a2 = 1;
@@ -25,6 +26,7 @@ public class Main2 {
             a2 = scanner.nextInt();
         }else {
             System.out.println("Please input integer");
+            System.exit(0);
         }
 
         double a3 = 1;
@@ -32,6 +34,8 @@ public class Main2 {
             a3 = scanner.nextInt();
         }else {
             System.out.println("Please input integer");
+            System.exit(0);
+
         }
 
         double a4 = 1;
@@ -39,6 +43,7 @@ public class Main2 {
             a4 = scanner.nextInt();
         }else {
             System.out.println("Please input integer");
+            System.exit(0);
         }
 
         double a5 = 1;
