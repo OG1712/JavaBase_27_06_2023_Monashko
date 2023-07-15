@@ -18,7 +18,7 @@ public class Main {
 
         int b1 = 18;
         int b2 = 21;
-        int b3 = 19;
+        int b3 = 15;
         int b4 = 13;
         int b5 = 16;
 
