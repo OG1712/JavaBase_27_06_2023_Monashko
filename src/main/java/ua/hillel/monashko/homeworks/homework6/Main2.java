@@ -69,6 +69,7 @@ public class Main2 {
             b1 = scanner.nextInt();
         }else {
             System.out.println("Please input integer");
+            System.exit(0);
         }
 
         double b2 = 1;
@@ -76,6 +77,7 @@ public class Main2 {
             b2 = scanner.nextInt();
         }else {
             System.out.println("Please input integer");
+            System.exit(0);
         }
 
         double b3 = 1;
@@ -83,6 +85,7 @@ public class Main2 {
             b3 = scanner.nextInt();
         }else {
             System.out.println("Please input integer");
+            System.exit(0);
         }
 
         double b4 = 1;
@@ -90,6 +93,7 @@ public class Main2 {
             b4 = scanner.nextInt();
         }else {
             System.out.println("Please input integer");
+            System.exit(0);
         }
 
         double b5 = 1;
@@ -97,6 +101,7 @@ public class Main2 {
             b5 = scanner.nextDouble();
         }else {
             System.out.println("Please input integer");
+            System.exit(0);
         }
 
         double secondTeamAVG =(double) ((b1+b2+b3+b4+b5) / 5);
