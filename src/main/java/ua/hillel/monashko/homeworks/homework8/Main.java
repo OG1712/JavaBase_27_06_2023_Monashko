@@ -13,6 +13,7 @@ public class Main {
             }
             System.out.println("Shuttle №- " + i);
             counter++;
+            System.out.println("count " + counter);
 
         }
         i--;
@@ -20,16 +21,22 @@ public class Main {
 
         while (counter < 100) {
             i++;
-            counter++;
-            if (i / 10 == 4 || i / 10 == 9 || i % 10 == 4 || i % 10 == 9 || i / 100 == 4 || i / 100 == 9 || i % 100 == 4 || i % 100 == 9) {
+
+            if (i / 10 == 4 || i / 10 == 9 || i % 10 == 4 || i % 10 == 9 || i / 100 == 4 || i / 100 == 9 || i % 100 == 4 || i % 100 == 9 || i / 10%10==9 || i % 10 ==9|| i / 10%10==4 || i % 10 ==4) {
+
+
                 continue;
 
             }
+            counter++;
             System.out.println("Shuttle №- " + i);
+            System.out.println("count " + counter);
 
 
         }
-        //System.out.println(counter);
+      // System.out.println(counter);
+       
+
     }
 }
 
