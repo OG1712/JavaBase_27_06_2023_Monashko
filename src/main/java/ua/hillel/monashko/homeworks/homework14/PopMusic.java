@@ -10,5 +10,4 @@ class PopMusic extends MusicStyles {
         System.out.println("Playing "+ band +" music");
 
     }
-
 }

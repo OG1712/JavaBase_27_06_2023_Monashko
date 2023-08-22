@@ -6,7 +6,6 @@ public class MusicStyles {
         System.out.println("Playing music ");
 
     }
-
 }
 
 

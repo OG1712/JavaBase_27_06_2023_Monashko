@@ -10,5 +10,4 @@ class ClassicMusic extends MusicStyles {
         System.out.println("Playing " +band+ " music ");
 
     }
-
 }
