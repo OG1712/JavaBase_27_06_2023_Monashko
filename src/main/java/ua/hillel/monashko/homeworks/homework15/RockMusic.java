@@ -1,4 +1,4 @@
-package ua.hillel.monashko.homeworks.homework14;
+package ua.hillel.monashko.homeworks.homework15;
 
 class RockMusic extends MusicStyles {
     String band = "AC/DC";
